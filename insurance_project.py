@@ -1,4 +1,5 @@
 import pandas as pd
+import sklearn
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 # Load the dataset
@@ -93,3 +94,4 @@ prediction = model.predict(user_input)[0]
 # Display the predicted cost
 st.subheader("Predicted Health Insurance Cost:")
 st.write(f"${prediction:.2f}")
+
