@@ -1,5 +1,4 @@
 import pandas as pd
-import sklearn
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 # Load the dataset
